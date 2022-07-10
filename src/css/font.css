@@ -1,7 +1,73 @@
 @font-face {
+  font-family: 'Museo Sans Cyrl 500';
+  src: url('MuseoSansCyrl-500.eot');
+  src: local('MuseoSansCyrl-500'),
+    url('MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-500.woff') format('woff'),
+    url('MuseoSansCyrl-500.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url('MuseoSansCyrl-300Italic.eot');
+  src: local('MuseoSansCyrl-300Italic'),
+    url('MuseoSansCyrl-300Italic.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-300Italic.woff') format('woff'),
+    url('MuseoSansCyrl-300Italic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 500';
+  src: url('MuseoSansCyrl-500Italic.eot');
+  src: local('MuseoSansCyrl-500Italic'),
+    url('MuseoSansCyrl-500Italic.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-500Italic.woff') format('woff'),
+    url('MuseoSansCyrl-500Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url('MuseoSansCyrl-700.eot');
+  src: local('MuseoSansCyrl-700'),
+    url('MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-700.woff') format('woff'),
+    url('MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url('MuseoSansCyrl-700Italic.eot');
+  src: local('MuseoSansCyrl-700Italic'),
+    url('MuseoSansCyrl-700Italic.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-700Italic.woff') format('woff'),
+    url('MuseoSansCyrl-700Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url('MuseoSansCyrl-300.eot');
+  src: local('MuseoSansCyrl-300'),
+    url('MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url('MuseoSansCyrl-300.woff') format('woff'),
+    url('MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?9015y1');
-  src:  url('../fonts/icomoon.eot?9015y1#iefix') format('embedded-opentype'),
+  src: url('../fonts/icomoon.eot?9015y1');
+  src: url('../fonts/icomoon.eot?9015y1#iefix') format('embedded-opentype'),
     url('../fonts/icomoon.ttf?9015y1') format('truetype'),
     url('../fonts/icomoon.woff?9015y1') format('woff'),
     url('../fonts/icomoon.svg?9015y1#icomoon') format('svg');
@@ -10,7 +76,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -29,34 +96,42 @@
   content: "\e900";
   color: #fff;
 }
+
 .icon-instagram:before {
   content: "\e901";
   color: #fff;
 }
+
 .icon-pinterest:before {
   content: "\e902";
   color: #fff;
 }
+
 .icon-cup:before {
   content: "\e903";
   color: #e52421;
 }
+
 .icon-message:before {
   content: "\e904";
   color: #e52421;
 }
+
 .icon-barrow:before {
   content: "\e905";
   color: #e52421;
 }
+
 .icon-timer:before {
   content: "\e906";
   color: #e52421;
 }
+
 .icon-shoes:before {
   content: "\e907";
   color: #e52421;
 }
+
 .icon-heart:before {
   content: "\e908";
   color: #e52421;
